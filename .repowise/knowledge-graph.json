@@ -4,7 +4,7 @@
   "project": {
     "name": "easy-qemu",
     "is_monorepo": true,
-    "total_files": 50,
+    "total_files": 53,
     "entry_points": [
       "ui/src/App.svelte",
       "ui/src/main.ts",
@@ -53,6 +53,20 @@
       "summary": ""
     },
     {
+      "id": "file:.claude/CLAUDE.md",
+      "type": "document",
+      "filePath": ".claude/CLAUDE.md",
+      "language": "markdown",
+      "symbolCount": 0,
+      "lineCount": 130,
+      "complexity": "moderate",
+      "pagerank": 0.00698,
+      "communityId": 9,
+      "tags": [],
+      "summary": "Repository instructions and context for AI coding agents.",
+      "primaryOwner": "SparkleSavvy"
+    },
+    {
       "id": "file:.github/workflows/ci.yml",
       "type": "pipeline",
       "filePath": ".github/workflows/ci.yml",
@@ -60,13 +74,29 @@
       "symbolCount": 0,
       "lineCount": 30,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 7,
+      "pagerank": 0.00698,
+      "communityId": 10,
       "tags": [
         "config",
         "ci"
       ],
       "summary": "GitHub Actions CI/CD workflow definition."
+    },
+    {
+      "id": "file:.mcp.json",
+      "type": "config",
+      "filePath": ".mcp.json",
+      "language": "json",
+      "symbolCount": 0,
+      "lineCount": 7,
+      "complexity": "simple",
+      "pagerank": 0.00698,
+      "communityId": 11,
+      "tags": [
+        "config"
+      ],
+      "summary": "Configuration file: .mcp.json.",
+      "primaryOwner": "SparkleSavvy"
     },
     {
       "id": "file:Cargo.toml",
@@ -76,8 +106,8 @@
       "symbolCount": 0,
       "lineCount": 5,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 8,
+      "pagerank": 0.00698,
+      "communityId": 12,
       "tags": [
         "config"
       ],
@@ -91,8 +121,8 @@
       "symbolCount": 0,
       "lineCount": 39,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 9,
+      "pagerank": 0.00698,
+      "communityId": 13,
       "tags": [],
       "summary": "Project overview and entry point for new readers."
     },
@@ -104,8 +134,8 @@
       "symbolCount": 0,
       "lineCount": 18,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 10,
+      "pagerank": 0.00698,
+      "communityId": 14,
       "tags": [
         "config"
       ],
@@ -119,11 +149,10 @@
       "symbolCount": 13,
       "lineCount": 88,
       "complexity": "moderate",
-      "pagerank": 0.013478,
-      "communityId": 0,
+      "pagerank": 0.013205,
+      "communityId": 2,
       "tags": [],
-      "summary": "Service module accel defining AccelSupport, AccelSupport, supports.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module accel defining AccelSupport, AccelSupport, supports."
     },
     {
       "id": "file:crates/core/src/config.rs",
@@ -133,11 +162,10 @@
       "symbolCount": 21,
       "lineCount": 88,
       "complexity": "complex",
-      "pagerank": 0.013478,
-      "communityId": 0,
+      "pagerank": 0.013205,
+      "communityId": 3,
       "tags": [],
-      "summary": "Service module config defining Config, LoadedConfig, default_base.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module config defining Config, LoadedConfig, default_base."
     },
     {
       "id": "file:crates/core/src/env.rs",
@@ -147,11 +175,10 @@
       "symbolCount": 7,
       "lineCount": 46,
       "complexity": "moderate",
-      "pagerank": 0.009049,
-      "communityId": 0,
+      "pagerank": 0.008866,
+      "communityId": 2,
       "tags": [],
-      "summary": "Service module env defining EnvProbe, probe, missing_binaries_probe_to_none.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module env defining EnvProbe, probe, missing_binaries_probe_to_none."
     },
     {
       "id": "file:crates/core/src/lib.rs",
@@ -161,24 +188,23 @@
       "symbolCount": 11,
       "lineCount": 7,
       "complexity": "moderate",
-      "pagerank": 0.008318,
-      "communityId": 0,
+      "pagerank": 0.00815,
+      "communityId": 6,
       "tags": [
         "entry_point"
       ],
-      "summary": "Service module lib (11 symbols).",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module lib (11 symbols)."
     },
     {
       "id": "file:crates/core/src/manager.rs",
       "type": "file",
       "filePath": "crates/core/src/manager.rs",
       "language": "rust",
-      "symbolCount": 75,
-      "lineCount": 447,
+      "symbolCount": 77,
+      "lineCount": 455,
       "complexity": "complex",
-      "pagerank": 0.011063,
-      "communityId": 0,
+      "pagerank": 0.010839,
+      "communityId": 4,
       "tags": [],
       "summary": "Service module manager defining Status, Status, from_qmp.",
       "primaryOwner": "SparkleSavvy"
@@ -191,11 +217,10 @@
       "symbolCount": 7,
       "lineCount": 69,
       "complexity": "moderate",
-      "pagerank": 0.011658,
-      "communityId": 3,
+      "pagerank": 0.011422,
+      "communityId": 6,
       "tags": [],
-      "summary": "Service module process defining process_image_name, is_alive, kill_force.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module process defining process_image_name, is_alive, kill_force."
     },
     {
       "id": "file:crates/core/src/proxy.rs",
@@ -205,22 +230,21 @@
       "symbolCount": 27,
       "lineCount": 228,
       "complexity": "complex",
-      "pagerank": 0.008824,
-      "communityId": 2,
+      "pagerank": 0.008645,
+      "communityId": 1,
       "tags": [],
-      "summary": "Service module proxy defining Srv, Target, ProxyPool.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module proxy defining Srv, Target, ProxyPool."
     },
     {
       "id": "file:crates/core/src/qemu.rs",
       "type": "file",
       "filePath": "crates/core/src/qemu.rs",
       "language": "rust",
-      "symbolCount": 33,
-      "lineCount": 470,
+      "symbolCount": 37,
+      "lineCount": 480,
       "complexity": "complex",
-      "pagerank": 0.012643,
-      "communityId": 0,
+      "pagerank": 0.012387,
+      "communityId": 3,
       "tags": [],
       "summary": "Service module qemu defining resolve_binary, search_in_path, free_tcp_port.",
       "primaryOwner": "SparkleSavvy"
@@ -233,11 +257,10 @@
       "symbolCount": 12,
       "lineCount": 86,
       "complexity": "moderate",
-      "pagerank": 0.009332,
-      "communityId": 3,
+      "pagerank": 0.009143,
+      "communityId": 5,
       "tags": [],
-      "summary": "Service module qmp defining Qmp, Qmp, connect.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module qmp defining Qmp, Qmp, connect."
     },
     {
       "id": "file:crates/core/src/snapshots.rs",
@@ -247,22 +270,21 @@
       "symbolCount": 18,
       "lineCount": 85,
       "complexity": "complex",
-      "pagerank": 0.009549,
-      "communityId": 0,
+      "pagerank": 0.009356,
+      "communityId": 6,
       "tags": [],
-      "summary": "Service module snapshots defining SnapInfo, RawList, RawSnap.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module snapshots defining SnapInfo, RawList, RawSnap."
     },
     {
       "id": "file:crates/core/src/store.rs",
       "type": "file",
       "filePath": "crates/core/src/store.rs",
       "language": "rust",
-      "symbolCount": 28,
-      "lineCount": 134,
+      "symbolCount": 29,
+      "lineCount": 138,
       "complexity": "complex",
-      "pagerank": 0.010526,
-      "communityId": 0,
+      "pagerank": 0.010313,
+      "communityId": 4,
       "tags": [],
       "summary": "Service module store defining RunningInfo, RunningInfo, effective_vnc_port.",
       "primaryOwner": "SparkleSavvy"
@@ -272,11 +294,11 @@
       "type": "file",
       "filePath": "crates/core/src/vm.rs",
       "language": "rust",
-      "symbolCount": 117,
-      "lineCount": 252,
+      "symbolCount": 121,
+      "lineCount": 264,
       "complexity": "complex",
-      "pagerank": 0.013985,
-      "communityId": 0,
+      "pagerank": 0.013702,
+      "communityId": 2,
       "tags": [],
       "summary": "Service module vm defining Accel, Accel, label.",
       "primaryOwner": "SparkleSavvy"
@@ -289,8 +311,8 @@
       "symbolCount": 0,
       "lineCount": 7,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 11,
+      "pagerank": 0.00698,
+      "communityId": 15,
       "tags": [
         "config"
       ],
@@ -304,8 +326,8 @@
       "symbolCount": 0,
       "lineCount": 14,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 12,
+      "pagerank": 0.00698,
+      "communityId": 16,
       "tags": [
         "config"
       ],
@@ -319,11 +341,10 @@
       "symbolCount": 1,
       "lineCount": 0,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 13,
+      "pagerank": 0.00698,
+      "communityId": 17,
       "tags": [],
-      "summary": "Application module build defining main.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Application module build defining main."
     },
     {
       "id": "file:src-tauri/capabilities/default.json",
@@ -333,8 +354,8 @@
       "symbolCount": 0,
       "lineCount": 6,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 14,
+      "pagerank": 0.00698,
+      "communityId": 18,
       "tags": [
         "config"
       ],
@@ -348,8 +369,8 @@
       "symbolCount": 0,
       "lineCount": 1705,
       "complexity": "complex",
-      "pagerank": 0.007124,
-      "communityId": 15,
+      "pagerank": 0.00698,
+      "communityId": 19,
       "tags": [
         "config"
       ],
@@ -363,8 +384,8 @@
       "symbolCount": 0,
       "lineCount": 4,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 16,
+      "pagerank": 0.00698,
+      "communityId": 20,
       "tags": [
         "config"
       ],
@@ -378,8 +399,8 @@
       "symbolCount": 0,
       "lineCount": 3002,
       "complexity": "complex",
-      "pagerank": 0.007124,
-      "communityId": 17,
+      "pagerank": 0.00698,
+      "communityId": 21,
       "tags": [
         "config"
       ],
@@ -393,8 +414,8 @@
       "symbolCount": 0,
       "lineCount": 3002,
       "complexity": "complex",
-      "pagerank": 0.007124,
-      "communityId": 18,
+      "pagerank": 0.00698,
+      "communityId": 22,
       "tags": [
         "config"
       ],
@@ -405,11 +426,11 @@
       "type": "file",
       "filePath": "src-tauri/src/commands.rs",
       "language": "rust",
-      "symbolCount": 27,
-      "lineCount": 151,
+      "symbolCount": 29,
+      "lineCount": 160,
       "complexity": "complex",
-      "pagerank": 0.009832,
-      "communityId": 4,
+      "pagerank": 0.009633,
+      "communityId": 7,
       "tags": [],
       "summary": "Application module commands defining err, list_vms, get_statuses.",
       "primaryOwner": "SparkleSavvy"
@@ -420,10 +441,10 @@
       "filePath": "src-tauri/src/lib.rs",
       "language": "rust",
       "symbolCount": 5,
-      "lineCount": 69,
+      "lineCount": 67,
       "complexity": "moderate",
-      "pagerank": 0.007124,
-      "communityId": 4,
+      "pagerank": 0.00698,
+      "communityId": 7,
       "tags": [
         "entry_point"
       ],
@@ -438,13 +459,12 @@
       "symbolCount": 1,
       "lineCount": 2,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 19,
+      "pagerank": 0.00698,
+      "communityId": 23,
       "tags": [
         "entry_point"
       ],
-      "summary": "Application module main defining main.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Application module main defining main."
     },
     {
       "id": "file:src-tauri/tauri.conf.json",
@@ -454,8 +474,8 @@
       "symbolCount": 0,
       "lineCount": 18,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 20,
+      "pagerank": 0.00698,
+      "communityId": 24,
       "tags": [
         "config"
       ],
@@ -469,8 +489,8 @@
       "symbolCount": 0,
       "lineCount": 8,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 6,
+      "pagerank": 0.00698,
+      "communityId": 0,
       "tags": [
         "barrel"
       ],
@@ -484,8 +504,8 @@
       "symbolCount": 0,
       "lineCount": 12,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 21,
+      "pagerank": 0.00698,
+      "communityId": 25,
       "tags": [
         "config"
       ],
@@ -499,13 +519,12 @@
       "symbolCount": 2,
       "lineCount": 10,
       "complexity": "simple",
-      "pagerank": 0.012726,
-      "communityId": 6,
+      "pagerank": 0.012468,
+      "communityId": 0,
       "tags": [
         "entry_point"
       ],
-      "summary": "UI module App defining App.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module App defining App."
     },
     {
       "id": "file:ui/src/components/DetailsPanel.svelte",
@@ -515,11 +534,10 @@
       "symbolCount": 2,
       "lineCount": 104,
       "complexity": "moderate",
-      "pagerank": 0.007885,
-      "communityId": 1,
+      "pagerank": 0.007668,
+      "communityId": 0,
       "tags": [],
-      "summary": "UI module DetailsPanel defining openConsole, DetailsPanel.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module DetailsPanel defining openConsole, DetailsPanel."
     },
     {
       "id": "file:ui/src/components/LogsModal.svelte",
@@ -529,11 +547,10 @@
       "symbolCount": 1,
       "lineCount": 18,
       "complexity": "simple",
-      "pagerank": 0.008082,
-      "communityId": 1,
+      "pagerank": 0.007911,
+      "communityId": 0,
       "tags": [],
-      "summary": "UI module LogsModal defining LogsModal.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module LogsModal defining LogsModal."
     },
     {
       "id": "file:ui/src/components/Modal.svelte",
@@ -543,11 +560,10 @@
       "symbolCount": 3,
       "lineCount": 27,
       "complexity": "simple",
-      "pagerank": 0.014684,
-      "communityId": 1,
+      "pagerank": 0.014306,
+      "communityId": 0,
       "tags": [],
-      "summary": "UI module Modal defining onkeydown, onBackdropClick, Modal.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module Modal defining onkeydown, onBackdropClick, Modal."
     },
     {
       "id": "file:ui/src/components/SettingsModal.svelte",
@@ -557,11 +573,10 @@
       "symbolCount": 3,
       "lineCount": 127,
       "complexity": "moderate",
-      "pagerank": 0.007885,
-      "communityId": 1,
+      "pagerank": 0.007668,
+      "communityId": 0,
       "tags": [],
-      "summary": "UI module SettingsModal defining pick, save, SettingsModal.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module SettingsModal defining pick, save, SettingsModal."
     },
     {
       "id": "file:ui/src/components/SnapshotsModal.svelte",
@@ -571,11 +586,10 @@
       "symbolCount": 4,
       "lineCount": 80,
       "complexity": "moderate",
-      "pagerank": 0.008082,
-      "communityId": 1,
+      "pagerank": 0.007911,
+      "communityId": 0,
       "tags": [],
-      "summary": "UI module SnapshotsModal defining clean, refresh, run.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module SnapshotsModal defining clean, refresh, run."
     },
     {
       "id": "file:ui/src/components/StatusBar.svelte",
@@ -585,11 +599,10 @@
       "symbolCount": 1,
       "lineCount": 38,
       "complexity": "simple",
-      "pagerank": 0.007885,
-      "communityId": 1,
+      "pagerank": 0.007668,
+      "communityId": 0,
       "tags": [],
-      "summary": "UI module StatusBar defining StatusBar.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module StatusBar defining StatusBar."
     },
     {
       "id": "file:ui/src/components/Toasts.svelte",
@@ -599,11 +612,10 @@
       "symbolCount": 1,
       "lineCount": 28,
       "complexity": "simple",
-      "pagerank": 0.007885,
-      "communityId": 1,
+      "pagerank": 0.007668,
+      "communityId": 0,
       "tags": [],
-      "summary": "UI module Toasts defining Toasts.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module Toasts defining Toasts."
     },
     {
       "id": "file:ui/src/components/VmForm.svelte",
@@ -613,11 +625,10 @@
       "symbolCount": 10,
       "lineCount": 296,
       "complexity": "moderate",
-      "pagerank": 0.007885,
-      "communityId": 1,
+      "pagerank": 0.007668,
+      "communityId": 0,
       "tags": [],
-      "summary": "UI module VmForm defining addFwd, removeFwd, validPort.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module VmForm defining addFwd, removeFwd, validPort."
     },
     {
       "id": "file:ui/src/components/VmTable.svelte",
@@ -627,11 +638,10 @@
       "symbolCount": 2,
       "lineCount": 135,
       "complexity": "moderate",
-      "pagerank": 0.007885,
-      "communityId": 1,
+      "pagerank": 0.007668,
+      "communityId": 0,
       "tags": [],
-      "summary": "UI module VmTable defining VmTable.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module VmTable defining VmTable."
     },
     {
       "id": "file:ui/src/lib/api.ts",
@@ -639,12 +649,26 @@
       "filePath": "ui/src/lib/api.ts",
       "language": "typescript",
       "symbolCount": 3,
-      "lineCount": 59,
+      "lineCount": 61,
       "complexity": "simple",
-      "pagerank": 0.023715,
-      "communityId": 1,
+      "pagerank": 0.023101,
+      "communityId": 0,
       "tags": [],
       "summary": "Service module api defining humanMb, uptimeStr.",
+      "primaryOwner": "SparkleSavvy"
+    },
+    {
+      "id": "file:ui/src/lib/hotkeys.ts",
+      "type": "file",
+      "filePath": "ui/src/lib/hotkeys.ts",
+      "language": "typescript",
+      "symbolCount": 2,
+      "lineCount": 26,
+      "complexity": "simple",
+      "pagerank": 0.007668,
+      "communityId": 0,
+      "tags": [],
+      "summary": "Service module hotkeys defining matchGlobalHotkey.",
       "primaryOwner": "SparkleSavvy"
     },
     {
@@ -655,11 +679,10 @@
       "symbolCount": 4,
       "lineCount": 41,
       "complexity": "moderate",
-      "pagerank": 0.018895,
-      "communityId": 1,
+      "pagerank": 0.018375,
+      "communityId": 0,
       "tags": [],
-      "summary": "Service module state defining reloadVms, applyStatuses, initEvents.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module state defining reloadVms, applyStatuses, initEvents."
     },
     {
       "id": "file:ui/src/lib/toast.ts",
@@ -669,11 +692,10 @@
       "symbolCount": 5,
       "lineCount": 14,
       "complexity": "moderate",
-      "pagerank": 0.016703,
-      "communityId": 1,
+      "pagerank": 0.016254,
+      "communityId": 0,
       "tags": [],
-      "summary": "Service module toast defining Toast, toast, dismiss.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module toast defining Toast, toast, dismiss."
     },
     {
       "id": "file:ui/src/lib/types.ts",
@@ -683,11 +705,10 @@
       "symbolCount": 21,
       "lineCount": 62,
       "complexity": "complex",
-      "pagerank": 0.033793,
-      "communityId": 1,
+      "pagerank": 0.032919,
+      "communityId": 0,
       "tags": [],
-      "summary": "Service module types defining HostFwd, Vm, VmListItem.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "Service module types defining HostFwd, Vm, VmListItem."
     },
     {
       "id": "file:ui/src/main.ts",
@@ -697,13 +718,12 @@
       "symbolCount": 0,
       "lineCount": 4,
       "complexity": "simple",
-      "pagerank": 0.01318,
-      "communityId": 6,
+      "pagerank": 0.012914,
+      "communityId": 0,
       "tags": [
         "entry_point"
       ],
-      "summary": "UI module main.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module main."
     },
     {
       "id": "file:ui/src/views/ConsoleView.svelte",
@@ -713,11 +733,10 @@
       "symbolCount": 8,
       "lineCount": 107,
       "complexity": "moderate",
-      "pagerank": 0.01073,
-      "communityId": 1,
+      "pagerank": 0.010513,
+      "communityId": 0,
       "tags": [],
-      "summary": "UI module ConsoleView defining wakeToolbar, connect, disconnect.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module ConsoleView defining wakeToolbar, connect, disconnect."
     },
     {
       "id": "file:ui/src/views/MainView.svelte",
@@ -725,10 +744,10 @@
       "filePath": "ui/src/views/MainView.svelte",
       "language": "svelte",
       "symbolCount": 16,
-      "lineCount": 236,
+      "lineCount": 231,
       "complexity": "complex",
-      "pagerank": 0.01073,
-      "communityId": 1,
+      "pagerank": 0.010513,
+      "communityId": 0,
       "tags": [],
       "summary": "UI module MainView defining statusOf, withBusy, start.",
       "primaryOwner": "SparkleSavvy"
@@ -741,11 +760,10 @@
       "symbolCount": 0,
       "lineCount": 2,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 5,
+      "pagerank": 0.00698,
+      "communityId": 8,
       "tags": [],
-      "summary": "UI module svelte.config.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module svelte.config."
     },
     {
       "id": "file:ui/tsconfig.json",
@@ -755,8 +773,8 @@
       "symbolCount": 0,
       "lineCount": 8,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 22,
+      "pagerank": 0.00698,
+      "communityId": 26,
       "tags": [
         "config"
       ],
@@ -770,11 +788,10 @@
       "symbolCount": 1,
       "lineCount": 14,
       "complexity": "simple",
-      "pagerank": 0.007124,
-      "communityId": 5,
+      "pagerank": 0.00698,
+      "communityId": 8,
       "tags": [],
-      "summary": "UI module vite.config defining onwarn.",
-      "primaryOwner": "SparkleSavvy"
+      "summary": "UI module vite.config defining onwarn."
     },
     {
       "id": "function:crates/core/src/accel.rs:auto_on_windows_prefers_whpx_when_present",
@@ -966,6 +983,15 @@
       "summary": ""
     },
     {
+      "id": "function:crates/core/src/qemu.rs:cpu_accel_args",
+      "type": "function",
+      "filePath": "crates/core/src/qemu.rs",
+      "name": "cpu_accel_args",
+      "language": "rust",
+      "tags": [],
+      "summary": ""
+    },
+    {
       "id": "function:crates/core/src/qemu.rs:create_disk",
       "type": "function",
       "filePath": "crates/core/src/qemu.rs",
@@ -979,6 +1005,15 @@
       "type": "function",
       "filePath": "crates/core/src/qemu.rs",
       "name": "default_machine_omits_flag",
+      "language": "rust",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:crates/core/src/qemu.rs:display_args",
+      "type": "function",
+      "filePath": "crates/core/src/qemu.rs",
+      "name": "display_args",
       "language": "rust",
       "tags": [],
       "summary": ""
@@ -1092,6 +1127,15 @@
       "summary": ""
     },
     {
+      "id": "function:crates/core/src/qemu.rs:net_arg",
+      "type": "function",
+      "filePath": "crates/core/src/qemu.rs",
+      "name": "net_arg",
+      "language": "rust",
+      "tags": [],
+      "summary": ""
+    },
+    {
       "id": "function:crates/core/src/qemu.rs:no_net_uses_none",
       "type": "function",
       "filePath": "crates/core/src/qemu.rs",
@@ -1123,6 +1167,15 @@
       "type": "function",
       "filePath": "crates/core/src/qemu.rs",
       "name": "qmp_addr",
+      "language": "rust",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:crates/core/src/qemu.rs:qmp_args",
+      "type": "function",
+      "filePath": "crates/core/src/qemu.rs",
+      "name": "qmp_args",
       "language": "rust",
       "tags": [],
       "summary": ""
@@ -1276,6 +1329,42 @@
       "type": "function",
       "filePath": "crates/core/src/vm.rs",
       "name": "validate",
+      "language": "rust",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:crates/core/src/vm.rs:validate_display",
+      "type": "function",
+      "filePath": "crates/core/src/vm.rs",
+      "name": "validate_display",
+      "language": "rust",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:crates/core/src/vm.rs:validate_hostfwd",
+      "type": "function",
+      "filePath": "crates/core/src/vm.rs",
+      "name": "validate_hostfwd",
+      "language": "rust",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:crates/core/src/vm.rs:validate_identity",
+      "type": "function",
+      "filePath": "crates/core/src/vm.rs",
+      "name": "validate_identity",
+      "language": "rust",
+      "tags": [],
+      "summary": ""
+    },
+    {
+      "id": "function:crates/core/src/vm.rs:validate_iso",
+      "type": "function",
+      "filePath": "crates/core/src/vm.rs",
+      "name": "validate_iso",
       "language": "rust",
       "tags": [],
       "summary": ""
@@ -2058,6 +2147,13 @@
     },
     {
       "source": "file:crates/core/src/qemu.rs",
+      "target": "function:crates/core/src/qemu.rs:cpu_accel_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/qemu.rs",
       "target": "function:crates/core/src/qemu.rs:create_disk",
       "type": "contains",
       "direction": "forward",
@@ -2066,6 +2162,13 @@
     {
       "source": "file:crates/core/src/qemu.rs",
       "target": "function:crates/core/src/qemu.rs:default_machine_omits_flag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/qemu.rs",
+      "target": "function:crates/core/src/qemu.rs:display_args",
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
@@ -2156,6 +2259,13 @@
     },
     {
       "source": "file:crates/core/src/qemu.rs",
+      "target": "function:crates/core/src/qemu.rs:net_arg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/qemu.rs",
       "target": "function:crates/core/src/qemu.rs:no_net_uses_none",
       "type": "contains",
       "direction": "forward",
@@ -2178,6 +2288,13 @@
     {
       "source": "file:crates/core/src/qemu.rs",
       "target": "function:crates/core/src/qemu.rs:qmp_addr",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/qemu.rs",
+      "target": "function:crates/core/src/qemu.rs:qmp_args",
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
@@ -2540,6 +2657,34 @@
       "weight": 1.0
     },
     {
+      "source": "file:crates/core/src/vm.rs",
+      "target": "function:crates/core/src/vm.rs:validate_display",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/vm.rs",
+      "target": "function:crates/core/src/vm.rs:validate_hostfwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/vm.rs",
+      "target": "function:crates/core/src/vm.rs:validate_identity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/vm.rs",
+      "target": "function:crates/core/src/vm.rs:validate_iso",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
       "source": "file:crates/core/src/vm.rs::Accel",
       "target": "function:crates/core/src/vm.rs:label",
       "type": "contains",
@@ -2633,6 +2778,34 @@
     {
       "source": "file:crates/core/src/vm.rs::VmDraft",
       "target": "function:crates/core/src/vm.rs:validate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/vm.rs::VmDraft",
+      "target": "function:crates/core/src/vm.rs:validate_display",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/vm.rs::VmDraft",
+      "target": "function:crates/core/src/vm.rs:validate_hostfwd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/vm.rs::VmDraft",
+      "target": "function:crates/core/src/vm.rs:validate_identity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:crates/core/src/vm.rs::VmDraft",
+      "target": "function:crates/core/src/vm.rs:validate_iso",
       "type": "contains",
       "direction": "forward",
       "weight": 1.0
@@ -3199,6 +3372,13 @@
     },
     {
       "source": "file:ui/src/views/MainView.svelte",
+      "target": "file:ui/src/lib/hotkeys.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:ui/src/views/MainView.svelte",
       "target": "file:ui/src/lib/state.ts",
       "type": "imports",
       "direction": "forward",
@@ -3273,6 +3453,7 @@
       "name": "Application",
       "description": "",
       "nodeIds": [
+        "file:.mcp.json",
         "file:Cargo.toml",
         "file:README.md",
         "file:package.json",
@@ -3305,6 +3486,7 @@
       "name": "Config",
       "description": "",
       "nodeIds": [
+        "file:.claude/CLAUDE.md",
         "file:.github/workflows/ci.yml"
       ],
       "display_order": 3,
@@ -3329,6 +3511,7 @@
         "file:crates/core/src/store.rs",
         "file:crates/core/src/vm.rs",
         "file:ui/src/lib/api.ts",
+        "file:ui/src/lib/hotkeys.ts",
         "file:ui/src/lib/state.ts",
         "file:ui/src/lib/toast.ts",
         "file:ui/src/lib/types.ts"
@@ -3440,23 +3623,23 @@
     },
     {
       "order": 11,
-      "target_path": "crates/core/src/process.rs",
+      "target_path": "crates/core/src/manager.rs",
       "page_type": "file_page",
-      "title": "process.rs",
-      "depth": 1,
+      "title": "manager.rs",
+      "depth": 0,
       "kind": "code",
-      "reason": "Directly used by the entry points above; a core collaborator.",
+      "reason": "A top churn hotspot \u2014 one of the most frequently changed files in the repo; worth understanding early.",
       "layer_id": "layer:service"
     },
     {
       "order": 12,
-      "target_path": "crates/core/src/manager.rs",
-      "page_type": "file_page",
-      "title": "manager.rs",
-      "depth": 1,
-      "kind": "code",
-      "reason": "Directly used by the entry points above; a core collaborator.",
-      "layer_id": "layer:service"
+      "target_path": ".github/workflows/ci.yml",
+      "page_type": "infra_page",
+      "title": "ci.yml",
+      "depth": 2,
+      "kind": "infra",
+      "reason": "How the system above is configured, built, or deployed.",
+      "layer_id": "layer:config"
     }
   ],
   "modules": [
@@ -3494,6 +3677,7 @@
       "path": "",
       "layerId": "layer:application",
       "nodeIds": [
+        "file:.mcp.json",
         "file:Cargo.toml",
         "file:README.md",
         "file:package.json",
@@ -3506,7 +3690,7 @@
         "file:src-tauri/tauri.conf.json"
       ],
       "wholeLayer": true,
-      "language": "rust"
+      "language": "json"
     },
     {
       "id": "module:src-tauri-gen-schemas",
@@ -3542,6 +3726,7 @@
         "file:crates/core/src/store.rs",
         "file:crates/core/src/vm.rs",
         "file:ui/src/lib/api.ts",
+        "file:ui/src/lib/hotkeys.ts",
         "file:ui/src/lib/state.ts",
         "file:ui/src/lib/toast.ts",
         "file:ui/src/lib/types.ts"
